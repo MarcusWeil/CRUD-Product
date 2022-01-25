@@ -1,0 +1,16 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    font-size: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer span{
+    font-weight: 300;
+}
+.material-icons.md-18{
+    font-size: 18px;
+}
