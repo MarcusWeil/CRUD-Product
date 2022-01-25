@@ -1,0 +1,18 @@
+{
+    "products":[{
+        "id":1,
+        "name": "Geladeira",
+        "price": 4599
+    },
+    {
+        "id":2,
+        "name": "Computador gamer",
+        "price": 7000
+    },
+    {
+        "id":3,
+        "name": "Smartphone S20 +",
+        "price": 5200
+    }
+]
+}
