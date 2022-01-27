@@ -1,18 +1,29 @@
 {
-    "products":[{
-        "id":1,
-        "name": "Geladeira",
-        "price": 4599
+  "products": [
+    {
+      "id": 1,
+      "name": "Geladeira",
+      "price": 4599
     },
     {
-        "id":2,
-        "name": "Computador gamer",
-        "price": 7000
+      "id": 2,
+      "name": "Computador gamer",
+      "price": 7000
     },
     {
-        "id":3,
-        "name": "Smartphone S20 +",
-        "price": 5200
+      "id": 3,
+      "name": "Smartphone S20 +",
+      "price": 5200
+    },
+    {
+      "name": "Samsung S7 Edge",
+      "price": "1299,99",
+      "id": 4
+    },
+    {
+      "name": "DellWork S2381",
+      "price": "23.954,99",
+      "id": 5
     }
-]
+  ]
 }

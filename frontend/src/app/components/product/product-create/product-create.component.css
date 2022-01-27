@@ -1,0 +1,16 @@
+.saveButton{
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    margin: 20px 15px 0px 0px
+}
+.cancelButton{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
