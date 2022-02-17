@@ -23,7 +23,8 @@ import { MatInputModule } from '@angular/material/input'
 import { RedDirective } from './directives/red.directive';
 
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { ProductListComponent } from './components/product/product-list/product-list.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FormsModule } from '@angular/forms'
     HomeComponent,
     ProductCrudComponent,
     RedDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
