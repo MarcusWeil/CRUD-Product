@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -19,13 +19,17 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
+import { MatTableModule } from '@angular/material/table'
 
 import { RedDirective } from './directives/red.directive';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ProductListComponent } from './components/product/product-list/product-list.component'
 
+registerLocaleData(localePt)
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,13 +51,17 @@ import { ProductListComponent } from './components/product/product-list/product-
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule,
-    HttpClientModule,
     MatFormFieldModule,
     MatInputModule,
-    FormsModule
+    MatSnackBarModule,
+    MatTableModule,
+    HttpClientModule,
+    FormsModule,
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID,
+    useValue: 'pt-BR'
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
