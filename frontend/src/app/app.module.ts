@@ -27,7 +27,8 @@ import localePt from '@angular/common/locales/pt';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { ProductListComponent } from './components/product/product-list/product-list.component'
+import { ProductListComponent } from './components/product/product-list/product-list.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component'
 
 registerLocaleData(localePt)
 @NgModule({
@@ -40,7 +41,8 @@ registerLocaleData(localePt)
     ProductCrudComponent,
     RedDirective,
     ProductCreateComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
