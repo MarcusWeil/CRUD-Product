@@ -2,3 +2,15 @@
     display: flex;
     flex-direction: column;
 }
+.saveButton {
+    background-color: rgb(235, 224, 224);
+    color: black;
+    font-weight: bold;
+    margin: 20px 15px 0px 0px
+}
+
+.cancelButton {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
