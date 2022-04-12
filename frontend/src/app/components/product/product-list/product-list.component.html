@@ -23,7 +23,7 @@
                         edit
                     </i>
                 </a>
-                <a routerLink="" class="delete">
+                <a routerLink="/products/delete/{{ product.id}}" class="delete">
                     <i class="material-icons">
                         delete
                     </i>
@@ -33,4 +33,4 @@
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let product; columns: displayedColumns;"></tr>
         </table>
-        </div>
+    </div>
