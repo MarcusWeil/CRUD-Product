@@ -13,13 +13,13 @@ export class HeaderService {
     icon: 'home',
     routeUrl: ''
   });
-  public get headerData(): HeaderData {
+  get headerData(): HeaderData {
     return this._headerData.value;
   }
   /*headerData vai setar o headerData do tipo "HeaderData.model" para: {
     BehaviorSubject ser capaz de detectar o evento a partir do .next() que estará recebendo o valor do headerData previamente obtido pelo 'get headerData()'
   }*/
-  public set headerData(headerData: HeaderData) {
+  set headerData(headerData: HeaderData) {
     this._headerData.next(this.headerData);
   }
 
