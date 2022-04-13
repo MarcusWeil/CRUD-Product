@@ -10,7 +10,7 @@ Página Inicial composta por um card de apresentação, e um grid exibindo os do
 A tela seguinte possui atualmente as operações CRUD, que são abertas em um novo link com o id do produto:
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/93293231/163083587-63934fa1-af89-49e2-a71c-7767c19b60eb.png">
 <br>
-As operações de Atualizar e Excluir abrem as páginas de edição(já preenchidas com os dados) e de exclusão(read-only):
+As operações de Atualizar e Excluir abrem as páginas de edição(já preenchidas com os dados) e de exclusão(read-only):<br>
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/93293231/163083973-57a6c9c8-60fd-4454-81a2-aae6e4f24bd8.png">
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/93293231/163083930-34eeb13d-1321-4a17-a09f-e7f98d2f168f.png">
 <br>
