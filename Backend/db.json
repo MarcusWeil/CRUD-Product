@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 2,
-      "name": "Computador gamer",
-      "price": 7000
-    },
-    {
       "id": 3,
       "name": "Smartphone S20 +",
       "price": 5200
