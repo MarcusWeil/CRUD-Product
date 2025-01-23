@@ -20,25 +20,4 @@ As operações de Atualizar e Excluir abrem as páginas de edição(já preenchi
 E um erro caso haja falha na requisição por algum motivo:<br>
 <img width="297" alt="image" src="https://user-images.githubusercontent.com/93293231/163084205-d4fd3ce8-d5c5-41d6-8d9f-ecbe4565ce8d.png">
 
-Melhorias em Backlog:
-<ol>
-  <li>Responsividade dos itens na tela Home</li>
-  <li>Botões funcionais nos itens na tela Home<b>(In progress)</b></li>
-  <li>Transformar cadastrar Produto > Modal Pop up</li>
-  <li>Transformar editar Produto > Modal Pop up</li>
-  <li>Transformar excluir Produto > Modal Pop up</li>
-  <li>Atualizar id dos produtos dinamicamente</li>
-  <li>Verificar se houve alteração nos dados quando Update</li>
-  <li>Verificar se NOVO PRODUTO é válido</li>
-  <li>Fazer tratamento de dados em 'product.price' para substituir a vírgula por ponto</li>
-  <li>Fixar Header quando tiver scroll<b>(In progress)</b></li>
-  <li>Título dinâmico no Header<b>(In progress)</b></li>
-  <li>Adicionar Settings</li>
-  <li>Settings > Alterar Idioma</li>
-  <li>Tela de Login</li> 
-  <li>Autenticação no login</li>
-
-</ol>
-
-
 
